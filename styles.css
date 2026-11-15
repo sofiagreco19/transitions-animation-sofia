@@ -497,15 +497,17 @@ details[open] summary{
 
 /* TO DO: Add an animation here named "slide-in" that runs for three seconds, using the ease-in-out timing function, will run only three times, and uses the alternate animation direction */
 #animate4 img.animate{
-    
+    animation: slide-in 3s ease-in-out 3 alternate;
 }
 
 @keyframes slide-in {
     from {
+        transform: translate(0,0);
         /* TO DO: The element should begin at its normal place in the document */
     }
 
     to {
+        transform: translate(50vw, 0);
         /* TO DO: The element should end 50vw in the x-direction (horizontal) and should not move at all in the y-direction (vertical) */
     }
 }
