@@ -451,11 +451,21 @@ details[open] summary{
 
 /* TO DO: Add an animation to this image named "grow" that runs for two seconds, uses ease-in-out as its timing function, and runs continuously without stopping */
 #animate2 img.animate{
-    
+    animation: grow 2s ease-in-out infinite;
 }
 
 /* TO DO: Add an @keyframes rule here named "grow" that animates the image by scaling it. The scale should be at 1 to start and end, and should scale to 1.5 halfway through the animation */
-
+@keyframes grow{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 
 /* Third dropdown animation - Timing Example  */
 /* This has been completed for you and is included as an example only */
