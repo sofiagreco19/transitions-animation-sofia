@@ -89,7 +89,7 @@ body {
 }
 
 /* TO DO: Uncomment the keyframes below */
-/* @keyframes gradient-animation {
+@keyframes gradient-animation {
     0% {
         background-position: 0% 50%;
     }
@@ -99,7 +99,7 @@ body {
     100% {
         background-position: 0% 50%;
     }
-} */
+} 
 
 /* ---------- SKIP LINK STYLES ---------- */
 /* ----- From: https://webaim.org/techniques/css/invisiblecontent/ ----- */
