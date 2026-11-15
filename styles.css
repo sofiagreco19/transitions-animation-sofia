@@ -85,7 +85,7 @@ body {
     background: linear-gradient(300deg,#9dbeae,#eef1ee,#3a524f);
     background-size: 180% 180%;
     /* TO DO: Uncomment the line below and keyframes to add an animated gradient to the page background. I used https://animated-gradient-background-generator.netlify.app/ to generate this gradient using the colors for the site */
-    /* animation: gradient-animation 18s ease infinite; */
+    animation: gradient-animation 18s ease infinite; 
 }
 
 /* TO DO: Uncomment the keyframes below */
