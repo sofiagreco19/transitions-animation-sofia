@@ -429,7 +429,7 @@ details[open] summary{
 
 /* TO DO: Add an animation to this image named "spin" that runs for 2.5 seconds, using linear easing, and will run continuously without stopping */
 #animate1 img.animate{
-    
+    animation: spin 2.5s linear infinite;
 }
 
 /* TO DO: Create an @keyframes rule here named "spin" that animates the image above by rotating it. It should start at its original rotation and end at 360 degrees */
