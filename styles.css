@@ -597,6 +597,7 @@ details[open] summary{
 /* TO DO: Add a transformation here so that the SVG grows to be 2 times its normal size on hover */
 #link3:hover svg{
     stroke: var(--wht);
+    transform: scale(2);
 }
 
 #link4{
