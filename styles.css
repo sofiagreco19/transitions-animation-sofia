@@ -615,7 +615,7 @@ details[open] summary{
 
 /* TO DO: Add a transformation here so that this image will spin in a complete circle on hover */
 #link4:hover svg{
-    
+    transform: rotate(360deg);
 }
 
 
